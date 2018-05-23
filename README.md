@@ -15,6 +15,7 @@ Run following command
 stack build
 PORT=8080 stack exec biocad
 ```
+Visit localhost:8080
 
 Implemented Features
 -------------
@@ -22,4 +23,3 @@ Implemented Features
 * Function queryReaction which return reaction by id
 * Function findShortestPath from one molecule to another
 * Change web site for using queryReaction func and showing several fields from Reaction
-*
